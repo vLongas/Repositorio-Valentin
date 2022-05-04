@@ -9,8 +9,14 @@
     color: beige;
    display: flex;
    justify-content: space-between;
- align-items: flex-end;
+ align-items: center;
 }
+.nav{
+    width: 30%;
+   
+}
+
+
 .listas{
     
     list-style: none;
@@ -21,18 +27,36 @@
   
     display: flex;
     justify-content: space-around;
+}
 
+ 
 
+.nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.nav li a:hover{
+    background-color: black;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
 }
 .logo{
 justify-content: flex-start
 
 }
-.nav{
-    width: 30%;
-   
-}
+.nav li:hover > ul{
+    display: block;
+} 
+.list-nav{
 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
 
 .titulo-principal{
     font-size: 60px;
@@ -118,3 +142,5 @@ list-style: none;
     font-size: 30px;
     padding: 5%;
 }
+
+
