@@ -62,7 +62,7 @@ justify-content: flex-start
 .titulo-principal{
     font-size: 60px;
     color: aquamarine;
-    background-color: beige;
+    background-image: linear-gradient(to bottom, white, beige);
     font-weight: hold;
     text-align: center;
     
