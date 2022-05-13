@@ -1,0 +1,39 @@
+@import '../base/variables';
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    transition-property: all;
+    transition-duration: 1s;
+
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.quienes-somos {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 25% 40px 25%;
+    display: inline-block;
+
+    font-family: $font-family;
+    font-size: $letra;
+}
+
+@media screen and (max-width:777px) {
+    .image {
+       width: 222px;
+display: flex;
+    justify-content: center;
+
+
+    }
+
+}

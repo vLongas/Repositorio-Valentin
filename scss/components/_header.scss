@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+
+header{
+    font-family: $font-family;
+    
+}
+
+.nav{
+    width: 30%;
+   
+    .logo{
+        justify-content: flex-start;
+        
+    }
+
+}
+
+.loguito{
+    margin-left: 12px;
+}

@@ -1,0 +1,16 @@
+@import '../base/variables';
+
+.mapita{
+    display: flex;
+justify-content: center;
+}
+.sucursales{
+    background-color: beige;
+    font-size: 30px;
+    list-style:circle;
+    display: inline-block;
+    padding: 20px 25% 100px 25%;
+    font-family: 'Nanum Gothic', sans-serif;
+  
+}
+.mapeo{background-color: beige;}
