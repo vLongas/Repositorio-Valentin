@@ -1,7 +1,7 @@
 @import '../base/variables';
-
+@import '../base/listas';
 .seccion-contacto{
-    background-color: beige;
+    background-color:  nth($bg-color, 2);
     font-family: $font-family;
     
 

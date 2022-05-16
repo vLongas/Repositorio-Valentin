@@ -1,11 +1,11 @@
 @import '../base/variables';
-
+@import '../base/listas';
 .mapita{
     display: flex;
 justify-content: center;
 }
 .sucursales{
-    background-color: beige;
+    background-color: nth($bg-color, 2);
     font-size: 30px;
     list-style:circle;
     display: inline-block;
@@ -13,4 +13,4 @@ justify-content: center;
     font-family: 'Nanum Gothic', sans-serif;
   
 }
-.mapeo{background-color: beige;}
+.mapeo{background-color: nth($bg-color, 2);}

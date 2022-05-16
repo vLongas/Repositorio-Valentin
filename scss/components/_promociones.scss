@@ -1,7 +1,7 @@
 @import '../base/variables';
-
+@import '../base/listas';
 .row{
-    background-color: beige;
+    background-color: nth($bg-color, 2);
 }
 .promo{
     padding: 10px;

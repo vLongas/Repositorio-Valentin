@@ -1,9 +1,9 @@
 @import '../base/variables';
-
+@import '../base/listas';
 .imagenes {
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: nth($bg-color,2);
     padding-top: 20px;
     padding-bottom: 40px;
     transition-property: all;
@@ -16,7 +16,7 @@
 }
 
 .quienes-somos {
-    background-color: beige;
+    background-color: nth($bg-color,2);
     display: flex;
     justify-content: center;
 
