@@ -3,19 +3,8 @@
 
 header{
     font-family: $font-family;
-    
-}
-
-.nav{
-    width: 30%;
-   
-    .logo{
-        justify-content: flex-start;
-        
+    .background-nav{
+        background-color: white;
     }
-
-}
-
-.loguito{
-    margin-left: 12px;
+    
 }

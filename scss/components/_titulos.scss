@@ -1,24 +1,27 @@
 @import '../base/variables';
+@import '../base/listas';
 
-.titulo-principal{
-    font-size: 60px;
-    color: aquamarine;
-    background-image: linear-gradient(to bottom, white, beige);
-    font-weight: hold;
-    text-align: center;
-    margin: 0;
-font-family:$font-family;
+.carrusel-index {
+    margin-top: 110px;
 
+    .titulo-principal {
+        font-size: 60px;
+        color: aquamarine;
+        background-image:nth($bg-color , 4);
+        font-weight: hold;
+        text-align: center;
+        margin: 0;
+        font-family: $font-family;
+    }
 
-    
-}
-.titulo-2{
-color: black;
-font-size: 35px;
-text-align: center;
-font-style: italic;
-background-color: beige;
-font-family: $font-family;
-margin-bottom: 0;
-padding-bottom: 13px;
+    .titulo-2 {
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        font-style: italic;
+        background-color: nth($bg-color, 2);
+        font-family: $font-family;
+        margin-bottom: 0;
+        padding-bottom: 13px;
+    }
 }

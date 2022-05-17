@@ -1,19 +1,14 @@
 header {
   font-family: "Nanum Gothic", sans-serif;
 }
-
-.nav {
-  width: 30%;
-}
-.nav .logo {
-  justify-content: flex-start;
+header .background-nav {
+  background-color: white;
 }
 
-.loguito {
-  margin-left: 12px;
+.carrusel-index {
+  margin-top: 110px;
 }
-
-.titulo-principal {
+.carrusel-index .titulo-principal {
   font-size: 60px;
   color: aquamarine;
   background-image: linear-gradient(to bottom, white, beige);
@@ -22,8 +17,7 @@ header {
   margin: 0;
   font-family: "Nanum Gothic", sans-serif;
 }
-
-.titulo-2 {
+.carrusel-index .titulo-2 {
   color: black;
   font-size: 35px;
   text-align: center;
