@@ -10,7 +10,7 @@ justify-content: center;
     list-style:circle;
     display: inline-block;
     padding: 20px 25% 100px 25%;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: $font-family;
   
 }
 .mapeo{background-color: nth($bg-color, 2);}

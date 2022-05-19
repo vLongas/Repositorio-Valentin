@@ -13,7 +13,10 @@
     font-weight: hold;
     text-align: center;
     margin: 0;
-    font-family: $font-family;
+    font-family: 'Quicksand', sans-serif;
+    span{
+        color: pink;
+    }
 }
 
 .titulo-2 {
@@ -22,7 +25,7 @@
     text-align: center;
     font-style: italic;
     background-color: nth($bg-color, 2);
-    font-family: $font-family;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 0;
     padding-bottom: 13px;
 }
