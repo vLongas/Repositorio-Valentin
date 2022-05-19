@@ -18,8 +18,13 @@
         font-size: $letra;
     }
 }
-@media screen and (max-width:598px) {
+@media screen and (max-width:690px) {
     .video{
         width: 350px;
+    }
+}
+@media screen and (max-width:503px) {
+    .video{
+        width: 250px;
     }
 }

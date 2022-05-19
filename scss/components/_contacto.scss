@@ -1,14 +1,62 @@
 @import '../base/variables';
 @import '../base/listas';
-.seccion-contacto{
-    background-color:  nth($bg-color, 2);
-    font-family: $font-family;
-    
 
+
+
+
+    .contenedor-contacto{
+        
+        background-color: beige;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+        padding: 50px ;
 }
-.contactos{
-    font-size: 30px;
-    padding: 5%;
-    font-family: $font-family;
-    text-decoration: none;
-    color: black;}
+
+ .contactanos{
+            text-align: center;
+            font-size: 30px;
+        }
+      
+ .contacto-caja{
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.452) ;
+              
+ }
+ .contacto-caja > * {
+padding: 60px ;
+ }
+ .contacto-formulario{
+     background-color: nth($bg-color,5);
+     h2{
+         padding-bottom: 25px;
+     }
+  .bloque{
+      grid-column: 1 /3;
+
+  }
+    }
+
+ .contacto-informacion{
+     background-color: nth($bg-color , 6 );
+ }
+ 
+ .contacto-formulario   form button,
+ .contacto-formulario   form input,
+ .contacto-formulario   form textarea{
+
+    width: 100%;
+    padding: 11px;
+    border: none;
+    background: none;
+    border-bottom: 2.5px solid beige;
+    outline: none;
+ }
+ .contacto-formulario form button{
+     border: none;
+     background-color: beige;
+
+ }
+ .contacto-formulario form{
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+ }
+ 
