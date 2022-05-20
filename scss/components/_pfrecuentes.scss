@@ -1,7 +1,10 @@
 @import '../base/variables';
 @import '../base/listas';
+@import '../base/mapas';
+
+
 .preguntas{
-    padding: 20px;
-    font-family: $font-family
+    padding: map-get($preguntas,padding);
+    font-family: map-get($preguntas,font-family);
     
 }

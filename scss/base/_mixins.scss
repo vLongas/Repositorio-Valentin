@@ -1,0 +1,7 @@
+@import '../base/listas';
+@import '../base/variables';
+
+@mixin mapa ($display,$justify-content){
+    display: $display;
+    justify-content: $justify-content;
+}

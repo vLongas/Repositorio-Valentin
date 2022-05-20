@@ -1,9 +1,9 @@
 @import '../base/variables';
 @import '../base/listas';
-.mapita{
-    display: flex;
-justify-content: center;
-}
+@import '../base/mixins';
+
+
+
 .sucursales{
     background-color: nth($bg-color, 2);
     font-size: 30px;
@@ -14,3 +14,7 @@ justify-content: center;
   
 }
 .mapeo{background-color: nth($bg-color, 2);}
+
+.mapita{
+    @include mapa(flex, center);
+}
