@@ -6,3 +6,26 @@
 .promo{
     padding: 10px;
     font-family: $font-family; }
+    .promo h2{
+        color: nth($bg-color ,7);
+        font-weight: bold;
+
+    }
+    .promo > *{
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+      
+    }
+    .tarjeta-promocion{
+        
+        background-color: nth($bg-color, 6);
+        box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.452) ;
+    }
+    .boton-sucursal{
+        font-weight: bold;
+     color: aquamarine;
+        
+    }

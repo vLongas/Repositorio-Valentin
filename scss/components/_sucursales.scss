@@ -11,9 +11,14 @@
     display: inline-block;
     padding: 20px 25% 100px 25%;
     font-family: $font-family;
+    text-decoration:none;
+   
+    
   
 }
-.mapeo{background-color: nth($bg-color, 2);}
+.mapeo{background-color: nth($bg-color, 2);
+      
+}
 
 .mapita{
     @include mapa(flex, center);

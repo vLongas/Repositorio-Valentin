@@ -6,12 +6,13 @@
     padding-top: 100px;
     font-size: 20px;
     text-align: center;
-    background-image: nth($bg-color,4);
-    padding: 0 0 20px 0;
-    margin: 0 60px 0 60px;
+    background-image: nth($bg-color,2);
+    padding: 0 60px 20px 60px;
+    
 
     .info {
-
+margin: 0;
+padding: 16px;
        @extend %info
     }
 }

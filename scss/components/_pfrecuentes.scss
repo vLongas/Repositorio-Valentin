@@ -6,5 +6,14 @@
 .preguntas{
     padding: map-get($preguntas,padding);
     font-family: map-get($preguntas,font-family);
+    background-color: nth($bg-color, 6);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.452) ;
+   
+    margin-bottom: 45px;
     
+
+}
+.preguntas h1{
+    color: nth($bg-color,7 );
+    font-weight: bold;
 }

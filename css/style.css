@@ -7,6 +7,7 @@ header .background-nav {
 
 .carrusel-index {
   margin-top: 110px;
+  background-color: beige;
 }
 
 .titulo-principal {
@@ -74,10 +75,14 @@ header .background-nav {
   padding-top: 100px;
   font-size: 20px;
   text-align: center;
-  background-image: linear-gradient(to bottom, white, beige);
-  padding: 0 0 20px 0;
-  margin: 0 60px 0 60px;
+  background-image: beige;
+  padding: 0 60px 20px 60px;
 }
+.section-2 .info {
+  margin: 0;
+  padding: 16px;
+}
+
 @media screen and (max-width: 690px) {
   .video {
     width: 350px;
@@ -135,6 +140,28 @@ header .background-nav {
   font-family: "Quicksand", sans-serif;
 }
 
+.promo h2 {
+  color: rgb(247, 168, 181);
+  font-weight: bold;
+}
+
+.promo > * {
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tarjeta-promocion {
+  background-color: rgb(192, 252, 232);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.452);
+}
+
+.boton-sucursal {
+  font-weight: bold;
+  color: aquamarine;
+}
+
 .sucursales {
   background-color: beige;
   font-size: 30px;
@@ -142,6 +169,7 @@ header .background-nav {
   display: inline-block;
   padding: 20px 25% 100px 25%;
   font-family: "Quicksand", sans-serif;
+  text-decoration: none;
 }
 
 .mapeo {
@@ -254,6 +282,14 @@ header .background-nav {
 .preguntas {
   padding: 20px;
   font-family: "Quicksand", sans-serif;
+  background-color: rgb(192, 252, 232);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.452);
+  margin-bottom: 45px;
+}
+
+.preguntas h1 {
+  color: rgb(247, 168, 181);
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
