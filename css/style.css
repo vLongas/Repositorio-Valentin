@@ -7,7 +7,7 @@ header .background-nav {
 
 .carrusel-index {
   margin-top: 110px;
-  background-color: beige;
+  background-color: linear-gradient(to top, rgba(104, 96, 96, 0.781), beige);
 }
 
 .titulo-principal {
@@ -290,6 +290,10 @@ header .background-nav {
 .preguntas h1 {
   color: rgb(247, 168, 181);
   font-weight: bold;
+}
+
+.articulo-pfrecuentes {
+  background-color: beige;
 }
 
 /*# sourceMappingURL=style.css.map */
