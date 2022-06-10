@@ -10,7 +10,7 @@
 
     .visita {
         font-size: 20px;
-        color: beige;
+        color: nth($bg-color , 2 );
         display: flex;
         justify-content: flex-start;
         font-family: $font-family;

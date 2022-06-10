@@ -9,14 +9,14 @@ background-color: nth($bg-color,3 );
 }
 .titulo-principal {
     font-size: 60px;
-    color: aquamarine;
+    color: nth($bg-color ,8 );
     background-image:nth($bg-color , 4);
     font-weight: hold;
     text-align: center;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
     span{
-        color: pink;
+        color:nth($bg-color, 9 );
     }
 }
 

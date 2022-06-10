@@ -23,3 +23,16 @@
 .mapita{
     @include mapa(flex, center);
 }
+
+@media screen and (max-width:607px){
+    .mapita{
+        width: 450px;
+        
+    }
+}
+@media screen and (max-width:451px){
+    .mapita{
+        width: 300px;
+        
+    }
+}

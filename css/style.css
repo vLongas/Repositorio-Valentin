@@ -12,7 +12,7 @@ header .background-nav {
 
 .titulo-principal {
   font-size: 60px;
-  color: aquamarine;
+  color: rgb(129, 69, 129);
   background-image: linear-gradient(to bottom, white, beige);
   font-weight: hold;
   text-align: center;
@@ -20,7 +20,7 @@ header .background-nav {
   font-family: "Quicksand", sans-serif;
 }
 .titulo-principal span {
-  color: pink;
+  color: green;
 }
 
 .titulo-2 {
@@ -69,6 +69,10 @@ header .background-nav {
   margin-top: 35px;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
+}
+
+.color-texto-carrusel {
+  color: rgba(0, 0, 0, 0.829);
 }
 
 .section-2 {
@@ -141,7 +145,7 @@ header .background-nav {
 }
 
 .promo h2 {
-  color: rgb(247, 168, 181);
+  color: rgb(129, 69, 129);
   font-weight: bold;
 }
 
@@ -181,6 +185,16 @@ header .background-nav {
   justify-content: center;
 }
 
+@media screen and (max-width: 607px) {
+  .mapita {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 451px) {
+  .mapita {
+    width: 300px;
+  }
+}
 .contenedor-contacto {
   background-color: beige;
   color: black;
@@ -287,8 +301,8 @@ header .background-nav {
   margin-bottom: 45px;
 }
 
-.preguntas h1 {
-  color: rgb(247, 168, 181);
+.preguntas h2 {
+  color: rgb(129, 69, 129);
   font-weight: bold;
 }
 

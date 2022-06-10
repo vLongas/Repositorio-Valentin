@@ -6,7 +6,7 @@
 
     .contenedor-contacto{
         
-        background-color: beige;
+        background-color: nth($bg-color, 2 );
     color: black;
     font-family: 'Quicksand', sans-serif;
         padding: 50px ;
@@ -50,7 +50,7 @@ padding: 60px ;
  }
  .contacto-formulario form button{
      border: none;
-     background-color: beige;
+     background-color: nth($bg-color, 2 );
      padding: 10px;
 
 
