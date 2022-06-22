@@ -85,6 +85,11 @@ padding: 60px ;
 .contacto-informacion ul li{
     padding: 3px;
 }
+
+.ul-contacto{
+    list-style: none;
+    padding: 0;
+}
 @media screen and (min-width:1083px){
 .contacto-caja{
     display: grid;
@@ -100,4 +105,7 @@ padding: 60px ;
     .contacto-informacion{
         padding: 1px;
     }
+    
+  
 }
+

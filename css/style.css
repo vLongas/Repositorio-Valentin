@@ -277,6 +277,11 @@ header .background-nav {
   padding: 3px;
 }
 
+.ul-contacto {
+  list-style: none;
+  padding: 0;
+}
+
 @media screen and (min-width: 1083px) {
   .contacto-caja {
     display: grid;
